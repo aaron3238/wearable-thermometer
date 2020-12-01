@@ -1,4 +1,4 @@
-// DS18B20 temperature sensor implementation to connect to SEEEDUINO XIAO.
+// DS18B20 temperature sensor implementation to connect to SEEEDUINO XIAO on pin 6.
 #include <OneWire.h>
 int inPin=6; // define D10 as input pin connecting to DS18S20 S pin
 OneWire ds(inPin); 
