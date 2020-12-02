@@ -1,4 +1,15 @@
-// DS18B20 temperature sensor implementation to connect to SEEEDUINO XIAO on pin 6.
+//////////////////////////////////////////////////////////////////////////////////////////
+//
+// Author: Aaron Pritchard
+// Filename: read_ds18b20_temp.ino
+// Class: CSC354-030
+// Prof: Dr. Hussain
+// Date: 30 November 2020
+// Major: CS 
+// Desc: DS18B20 temperature sensor implementation to connect to SEEEDUINO XIAO on pin 6.
+//
+/////////////////////////////////////////////////////////////////////////////////////////
+
 #include <OneWire.h>
 int inPin=6; // define D10 as input pin connecting to DS18S20 S pin
 OneWire ds(inPin); 
