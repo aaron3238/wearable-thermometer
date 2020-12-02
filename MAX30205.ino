@@ -6,7 +6,7 @@
 // Prof: Dr. Hussain
 // Date: 2 December 2020 
 // Major: CS 
-// Description: Makes use of the MAX30205 temperature sensor to display temps in f to 
+// Description: Makes use of the MAX30205 temperature sensor to display temps in f to serial.
 //
 /////////////////////////////////////////////////////////////////////////////////////////
 
